@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.helloandroid.MainActivity"
+    android:background="@android:color/holo_blue_light"
+    >>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7"
+        android:background="@drawable/udacity"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:text="Udacity"
+        android:textSize="24sp"
+        android:textColor="@android:color/black"
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:fontFamily="casual"
+        />
+
+    <TextView
+        android:text="2465 Latham St"
+        android:fontFamily="casual"
+        android:textSize="24sp"
+        android:textColor="@android:color/black"
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        />
+    <TextView
+        android:text="Mountain View, CA 94043"
+        android:fontFamily="casual"
+        android:textSize="24sp"
+        android:textColor="@android:color/black"
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        />
+    <TextView
+        android:text="650-555-5555"
+        android:textSize="24sp"
+        android:fontFamily="casual"
+        android:textColor="@android:color/black"
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        />
+</LinearLayout>
